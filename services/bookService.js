@@ -1,6 +1,6 @@
-import * as bookModdel from '../models/bookModel.js';
+import * as bookModel from '../models/bookModel.js';
 
-export const fetcAllBooks = async() =>{
-    const books = await bookModdel.fetch();
+export const fetchAllBooks = async() =>{
+    const books = await bookModel.fetch();
     return books;
 }
